@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutia Sahrini S. | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#beranda" class="nav-logo">Mutia<span>.</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#beranda" class="nav-link active">Beranda</a></li>
+                <li class="nav-item"><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+                <li class="nav-item"><a href="#cv" class="nav-link">CV</a></li>
+                <li class="nav-item"><a href="#karya" class="nav-link">Hasil Karya</a></li>
+                <li class="nav-item"><a href="#foto" class="nav-link">Foto</a></li>
+                <li class="nav-item"><a href="#artikel" class="nav-link">Artikel</a></li>
+                <li class="nav-item"><a href="#sosmed" class="nav-link">Media Sosial</a></li>
+                <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
+                <li class="nav-item"><a href="#testimoni" class="nav-link">Testimoni</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= BERANDA (HERO) ================= -->
+    <section id="beranda" class="hero section-padding">
+        <div class="container hero-container">
+            <div class="hero-img" data-aos="fade-right">
+                <img src="https://placehold.co/400x400/e0f2fe/1e3a8a?text=Mutia+Sahrini" alt="Foto Profil Mutia">
+            </div>
+            <div class="hero-text" data-aos="fade-left">
+                <h4 class="hero-subtitle">Halo, selamat datang di portofolio saya 👋</h4>
+                <h1 class="hero-title">Mutia Sahrini Suprihatin</h1>
+                <p class="hero-desc">“Halo, saya Mutia. Seorang pelajar yang terus belajar, berkembang, dan menciptakan hal-hal baru.”</p>
+                <p class="hero-long-desc">
+                    Halo! Saya Mutia, seorang pelajar SMK jurusan Manajemen Perkantoran yang memiliki ketertarikan pada dunia organisasi, kreativitas, dan pengembangan diri. Saya senang mencoba hal-hal baru, belajar dari pengalaman, serta mengembangkan kemampuan yang saya miliki.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#tentang" class="btn btn-primary">Lihat Profil</a>
+                    <a href="#kontak" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TENTANG KAMI ================= -->
+    <section id="tentang" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Tentang Kami</h2>
+                <p>Kenali saya lebih dekat</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="zoom-in">
+                    <div class="about-icon"><i class="fas fa-user"></i></div>
+                    <h3>Nama</h3>
+                    <p>Mutia Sahrini Suprihatin</p>
+                </div>
+                <div class="about-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="about-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Status</h3>
+                    <p>Pelajar SMK</p>
+                </div>
+                <div class="about-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="about-icon"><i class="fas fa-school"></i></div>
+                    <h3>Sekolah</h3>
+                    <p>SMK Negeri 42 Jakarta</p>
+                </div>
+                <div class="about-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="about-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Jurusan</h3>
+                    <p>Manajemen Perkantoran</p>
+                </div>
+                <div class="about-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="about-icon"><i class="fas fa-book"></i></div>
+                    <h3>Hobi</h3>
+                    <p>Membaca</p>
+                </div>
+                <div class="about-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="about-icon"><i class="fas fa-users"></i></div>
+                    <h3>Minat</h3>
+                    <p>Organisasi & Kepemimpinan</p>
+                </div>
+                <div class="about-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="about-icon"><i class="fas fa-star"></i></div>
+                    <h3>Cita-cita</h3>
+                    <p>Guru</p>
+                </div>
+                <div class="about-card about-desc-card" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="about-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Deskripsi Diri</h3>
+                    <p>Halo! Saya Mutia, seorang pelajar SMK jurusan Manajemen Perkantoran yang memiliki ketertarikan pada dunia organisasi, kreativitas, dan pengembangan diri. Saya senang mencoba hal-hal baru, belajar dari pengalaman, serta mengembangkan kemampuan yang saya miliki. Bagi saya, setiap pengalaman adalah kesempatan untuk menjadi pribadi yang lebih baik dan lebih percaya diri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CV ================= -->
+    <section id="cv" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Curriculum Vitae</h2>
+                <p>Perjalanan pendidikan dan pengalaman saya</p>
+            </div>
+            <div class="cv-wrapper">
+                <!-- Data Diri -->
+                <div class="cv-card" data-aos="fade-up">
+                    <h3><i class="fas fa-id-card"></i> Data Diri</h3>
+                    <ul class="cv-list">
+                        <li><span>Nama</span> : Mutia Sahrini Suprihatin</li>
+                        <li><span>Status</span> : Pelajar</li>
+                        <li><span>Sekolah</span> : SMK Negeri 42 Jakarta</li>
+                        <li><span>Jurusan</span> : Manajemen Perkantoran</li>
+                        <li><span>Hobi</span> : Membaca dan mendengarkan musik</li>
+                        <li><span>Minat</span> : Kreativitas, organisasi, administrasi, pengembangan diri</li>
+                        <li><span>Cita-cita</span> : Menjadi guru</li>
+                        <li><span>Kepribadian</span> : Bertanggung jawab, suka belajar, senang mencoba hal baru</li>
+                    </ul>
+                </div>
+                <!-- Pendidikan & Pengalaman -->
+                <div class="cv-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-graduation-cap"></i> Pendidikan</h3>
+                    <ul class="cv-list">
+                        <li>SMK Negeri 42 Jakarta <span class="badge">2023 - Sekarang</span></li>
+                        <li>Manajemen Perkantoran</li>
+                    </ul>
+                    <h3 style="margin-top: 1.5rem;"><i class="fas fa-users"></i> Pengalaman Organisasi</h3>
+                    <ul class="cv-list">
+                        <li>OSIS <span class="badge">Anggota Aktif</span></li>
+                        <li>Kepanitiaan <span class="badge">Berbagai Acara Sekolah</span></li>
+                    </ul>
+                </div>
+                <!-- Pengalaman Kegiatan -->
+                <div class="cv-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-flag"></i> Pengalaman Kegiatan</h3>
+                    <ul class="cv-list">
+                        <li>LDKS (Latihan Dasar Kepemimpinan Siswa)</li>
+                        <li>Perkemahan Pramuka</li>
+                        <li>Lomba Dance Semaphore</li>
+                        <li>OSN (Olimpiade Sains Nasional)</li>
+                    </ul>
+                </div>
+                <!-- Keahlian -->
+                <div class="cv-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-tools"></i> Keahlian / Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Administrasi</span>
+                        <span class="skill-tag">Microsoft Office</span>
+                        <span class="skill-tag">Komunikasi</span>
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Public Speaking</span>
+                        <span class="skill-tag">Kreativitas</span>
+                        <span class="skill-tag">Manajemen Waktu</span>
+                    </div>
+                </div>
+                <!-- Prestasi -->
+                <div class="cv-card" data-aos="fade-up" data-aos-delay="400">
+                    <h3><i class="fas fa-trophy"></i> Prestasi</h3>
+                    <ul class="cv-list">
+                        <li>Ranking 1 di sekolah</li>
+                        <li>Siswi terbaik</li>
+                    </ul>
+                    <h3 style="margin-top: 1.5rem;"><i class="fas fa-certificate"></i> Sertifikat</h3>
+                    <ul class="cv-list">
+                        <li>Juara 1 Vafor PBB Pramuka</li>
+                        <li>Olimpiade Sains Nasional (IPA)</li>
+                        <li>Khatam JUZ 30</li>
+                        <li>Seminar tentang Bullying</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= HASIL KARYA ================= -->
+    <section id="karya" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Hasil Karya</h2>
+                <p>Beberapa karya dan proyek yang pernah saya buat</p>
+            </div>
+            <div class="karya-grid">
+                <div class="karya-card" data-aos="fade-up">
+                    <img src="https://placehold.co/600x400/dbeafe/1e3a8a?text=Karya+1" alt="Karya 1">
+                    <div class="karya-body">
+                        <span class="karya-category">Desain</span>
+                        <h3>Poster Kegiatan Sekolah</h3>
+                        <p>Desain poster untuk acara LDKS dan kegiatan OSIS menggunakan aplikasi desain grafis.</p>
+                        <button class="btn btn-sm btn-primary">Lihat Karya</button>
+                    </div>
+                </div>
+                <div class="karya-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://placehold.co/600x400/e0f2fe/1e3a8a?text=Karya+2" alt="Karya 2">
+                    <div class="karya-body">
+                        <span class="karya-category">Administrasi</span>
+                        <h3>Laporan Keuangan Sederhana</h3>
+                        <p>Pembuatan laporan keuangan kelas menggunakan Microsoft Excel dengan rumus otomatis.</p>
+                        <button class="btn btn-sm btn-primary">Lihat Karya</button>
+                    </div>
+                </div>
+                <div class="karya-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://placehold.co/600x400/f3f4f6/1e3a8a?text=Karya+3" alt="Karya 3">
+                    <div class="karya-body">
+                        <span class="karya-category">Organisasi</span>
+                        <h3>Proposal Kegiatan</h3>
+                        <p>Menyusun proposal kegiatan untuk pengajuan dana acara sekolah dan kepanitiaan.</p>
+                        <button class="btn btn-sm btn-primary">Lihat Karya</button>
+                    </div>
+                </div>
+                <div class="karya-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://placehold.co/600x400/eff6ff/1e3a8a?text=Karya+4" alt="Karya 4">
+                    <div class="karya-body">
+                        <span class="karya-category">Kreativitas</span>
+                        <h3>Video Dokumentasi</h3>
+                        <p>Video singkat dokumentasi kegiatan sekolah yang diedit menggunakan aplikasi mobile.</p>
+                        <button class="btn btn-sm btn-primary">Lihat Karya</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOTO ================= -->
+    <section id="foto" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Galeri Foto</h2>
+                <p>Momen dan kenangan berharga</p>
+            </div>
+            <div class="foto-grid">
+                <div class="foto-item" data-aos="zoom-in">
+                    <img src="https://placehold.co/600x800/dbeafe/1e3a8a?text=Foto+1" alt="Foto 1">
+                </div>
+                <div class="foto-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://placehold.co/600x600/e0f2fe/1e3a8a?text=Foto+2" alt="Foto 2">
+                </div>
+                <div class="foto-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://placehold.co/600x700/f3f4f6/1e3a8a?text=Foto+3" alt="Foto 3">
+                </div>
+                <div class="foto-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://placehold.co/600x500/eff6ff/1e3a8a?text=Foto+4" alt="Foto 4">
+                </div>
+                <div class="foto-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="https://placehold.co/600x750/dbeafe/1e3a8a?text=Foto+5" alt="Foto 5">
+                </div>
+                <div class="foto-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="https://placehold.co/600x650/e0f2fe/1e3a8a?text=Foto+6" alt="Foto 6">
+                </div>
+                <div class="foto-item" data-aos="zoom-in" data-aos-delay="600">
+                    <img src="https://placehold.co/600x550/f3f4f6/1e3a8a?text=Foto+7" alt="Foto 7">
+                </div>
+                <div class="foto-item" data-aos="zoom-in" data-aos-delay="700">
+                    <img src="https://placehold.co/600x800/eff6ff/1e3a8a?text=Foto+8" alt="Foto 8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ARTIKEL ================= -->
+    <section id="artikel" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Artikel</h2>
+                <p>Tulisan dan pemikiran saya</p>
+            </div>
+            <div class="artikel-grid">
+                <div class="artikel-card" data-aos="fade-up">
+                    <img src="https://placehold.co/600x350/dbeafe/1e3a8a?text=Artikel+1" alt="Artikel 1">
+                    <div class="artikel-body">
+                        <span class="artikel-date"><i class="far fa-calendar"></i> 12 Januari 2025</span>
+                        <span class="artikel-category">Pengembangan Diri</span>
+                        <h3>Tips Mengatur Waktu Belajar dan Organisasi untuk Pelajar</h3>
+                        <p>Menjadi aktif di organisasi bukan berarti mengabaikan pelajaran. Berikut tips dari pengalaman saya...</p>
+                        <button class="btn btn-sm btn-outline">Baca Selengkapnya</button>
+                    </div>
+                </div>
+                <div class="artikel-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://placehold.co/600x350/e0f2fe/1e3a8a?text=Artikel+2" alt="Artikel 2">
+                    <div class="artikel-body">
+                        <span class="artikel-date"><i class="far fa-calendar"></i> 28 Desember 2024</span>
+                        <span class="artikel-category">Organisasi</span>
+                        <h3>Pengalaman Pertama Mengikuti LDKS dan Pelajaran Berharga</h3>
+                        <p>LDKS bukan hanya tentang fisik, tapi juga mental dan kerja sama tim. Ini cerita saya...</p>
+                        <button class="btn btn-sm btn-outline">Baca Selengkapnya</button>
+                    </div>
+                </div>
+                <div class="artikel-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://placehold.co/600x350/f3f4f6/1e3a8a?text=Artikel+3" alt="Artikel 3">
+                    <div class="artikel-body">
+                        <span class="artikel-date"><i class="far fa-calendar"></i> 15 November 2024</span>
+                        <span class="artikel-category">Kreativitas</span>
+                        <h3>Belajar Public Speaking: Cara Mengatasi Rasa Gugup</h3>
+                        <p>Berbicara di depan umum adalah skill yang bisa dilatih. Berikut cara saya melatihnya...</p>
+                        <button class="btn btn-sm btn-outline">Baca Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LINK MEDIA SOSIAL ================= -->
+    <section id="sosmed" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Media Sosial</h2>
+                <p>Temukan saya di platform berikut</p>
+            </div>
+            <div class="sosmed-grid">
+                <a href="https://instagram.com/tyaashrnzz" target="_blank" class="sosmed-card" data-aos="zoom-in">
+                    <i class="fab fa-instagram"></i>
+                    <h4>Instagram</h4>
+                    <p>@tyaashrnzz</p>
+                </a>
+                <a href="https://tiktok.com/@tiaa1123" target="_blank" class="sosmed-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fab fa-tiktok"></i>
+                    <h4>TikTok</h4>
+                    <p>@tiaa1123</p>
+                </a>
+                <a href="#" target="_blank" class="sosmed-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fab fa-youtube"></i>
+                    <h4>YouTube</h4>
+                    <p>Mutia Sahrini</p>
+                </a>
+                <a href="#" target="_blank" class="sosmed-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fab fa-facebook"></i>
+                    <h4>Facebook</h4>
+                    <p>Mutia Sahrini</p>
+                </a>
+                <a href="#" target="_blank" class="sosmed-card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fab fa-linkedin"></i>
+                    <h4>LinkedIn</h4>
+                    <p>Mutia Sahrini</p>
+                </a>
+                <a href="https://wa.me/6283805808641" target="_blank" class="sosmed-card" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fab fa-whatsapp"></i>
+                    <h4>WhatsApp</h4>
+                    <p>0838-0580-8641</p>
+                </a>
+            </div>
+        </div>
+    </se
+    /* ============================================
+   RESET & VARIABEL
+============================================ */
+:root {
+    --primary: #1e3a8a;      /* Navy */
+    --primary-light: #3b82f6; /* Biru muda */
+    --primary-soft: #dbeafe;  /* Biru sangat muda */
+    --accent: #60a5fa;
+    --text-dark: #1f2937;
+    --text-muted: #6b7280;
+    --text-light: #9ca3af;
+    --bg-light: #f8fafc;
+    --white: #ffffff;
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+    --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+    --shadow-lg: 0 8px 30px rgba(0,0,0,0.12);
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-secondary);
+    color: var(--text-dark);
+    background: var(--white);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.bg-light {
+    background: var(--bg-light);
+}
+
+/* ============================================
+   SECTION HEADER
+============================================ */
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+
+.section-header p {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+/* ============================================
+   BUTTONS
+============================================ */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background: #152b60;
+    box-shadow: 0 4px 16px rgba(30, 58, 138, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary-soft);
+}
+
+.btn-outline:hover {
+    background: var(--primary-soft);
+    border-color: var(--primary);
+}
+
+.btn-sm {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+/* ============================================
+   NAVBAR
+============================================ */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--white);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.navbar.scrolled {
+    box-shadow: var(--shadow-md);
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+}
+
+.nav-logo {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.nav-logo span {
+    color: var(--primary-light);
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 4px;
+}
+
+.nav-link {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    border-radius: 50px;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background: var(--primary-soft);
+    color: var(--primary);
+}
+
+/* Hamburger */
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.nav-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.nav-toggle.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.nav-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* ============================================
+   HERO SECTION
+============================================ */
+.hero {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #f8fafc 100%);
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 
